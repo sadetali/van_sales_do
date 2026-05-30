@@ -5,4 +5,4 @@ class SaleOrder(models.Model):
 
     def action_save_do(self):
         self.ensure_one()
-        return self.env.ref('sale_mobile_entry.action_report_mobile_sale').report_action(self)
+        return self.env.ref('van_sales_do.action_report_mobile_sale').report_action(self)
