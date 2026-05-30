@@ -17,9 +17,9 @@
         <field name="name">Compact DO / Sale Order</field>
         <field name="model">sale.order</field>
         <field name="report_type">qweb-pdf</field>
-        <field name="report_name">sale_mobile_entry.report_sale_compact</field>
-        <field name="report_file">sale_mobile_entry.report_sale_compact</field>
-        <field name="paperformat_id" ref="sale_mobile_entry.paperformat_sale_mobile_compact"/>
+        <field name="report_name">van_sales_do.report_sale_compact</field>
+        <field name="report_file">van_sales_do.report_sale_compact</field>
+        <field name="paperformat_id" ref="van_sales_do.paperformat_sale_mobile_compact"/>
         <field name="binding_model_id" ref="sale.model_sale_order"/>
         <field name="binding_type">report</field>
     </record>
