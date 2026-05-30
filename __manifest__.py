@@ -1,5 +1,5 @@
 {
-    'name': 'Sale Mobile Entry',
+    'name': 'Van Sales Do',
     'version': '18.0.1.3.0',
     'author': 'accenter',
     'category': 'Sales',
