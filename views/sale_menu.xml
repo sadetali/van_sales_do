@@ -1,0 +1,4 @@
+<odoo>
+    <menuitem id="menu_sale_mobile_root" name="Mobile Sales Entry" parent="sale.sale_menu_root" sequence="1"/>
+    <menuitem id="menu_mobile_sale_orders" name="Mobile Sales Entry" parent="menu_sale_mobile_root" action="sale_order_mobile_action" sequence="10"/>
+</odoo>
