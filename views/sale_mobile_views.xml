@@ -11,7 +11,7 @@
     </record>
 
     <record id="sale_order_mobile_action" model="ir.actions.act_window">
-        <field name="name">Mobile Sales Entry</field>
+        <field name="name">Van Sales Do</field>
         <field name="res_model">sale.order</field>
         <field name="view_mode">list,form</field>
     </record>
